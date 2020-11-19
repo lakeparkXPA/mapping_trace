@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>local_id</th>
+        <th>local_code</th>
+        <th>local_name</th>
+        <th>local_name_kr</th>
+        <th>edi</th>
+        <th>local_site</th>
+        <th>local_start_date</th>
+        <th>local_end_date</th>
+        <th>local_field</th>
+    </tr>
+    {% for concept_row in concept_result %}
+    <tr>
+        <td onclick="window.open('../test','{{concept_row.local_name_kr}}','width=430,height=500,location=no,status=no,scrollbars=yes');">{{concept_row.local_id}}</td>
+        <td>{{concept_row.local_code}}</td>
+        <td>{{concept_row.local_name}}</td>
+        <td>{{concept_row.local_name_kr}}</td>
+        <td>{{concept_row.edi}}</td>
+        <td>{{concept_row.local_site}}</td>
+        <td>{{concept_row.local_start_date}}</td>
+        <td>{{concept_row.local_end_date}}</td>
+        <td>{{concept_row.local_field}}</td>
+    <!-- td onClick = " location.href='../test' " onMouseOver = " window.status = '../test' " onMouseOut = " window.status = '' "-->
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

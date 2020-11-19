@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h5>TEST!!!!</h5>
+
+<table border="1">
+    <tr>
+        <th>number</th>
+        <th>concept_id</th>
+        <th>concept_name</th>
+        <th>domain_id</th>
+        <th>vocabulary_id</th>
+        <th>concept_class_id</th>
+        <th>standard_concept</th>
+        <th>concept_code</th>
+        <th>valid_start_date</th>
+        <th>valid_end_date</th>
+        <th>invalid_reason</th>
+    </tr>
+    {% for concept_row in concept_result %}
+    <tr>
+        <td>{{concept_row.concept_id}}</td>
+        <td>{{concept_row.concept_name}}</td>
+        <td>{{concept_row.domain_id}}</td>
+        <td>{{concept_row.vocabulary_id}}</td>
+        <td>{{concept_row.concept_class_id}}</td>
+        <td>{{concept_row.standard_concept}}</td>
+        <td>{{concept_row.concept_code}}</td>
+        <td>{{concept_row.valid_start_date}}</td>
+        <td>{{concept_row.valid_end_date}}</td>
+        <td>{{concept_row.invalid_reason}}</td>
+    <!-- td onClick = " location.href='../test' " onMouseOver = " window.status = '../test' " onMouseOut = " window.status = '' "-->
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
