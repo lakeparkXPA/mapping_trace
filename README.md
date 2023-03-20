@@ -14,5 +14,5 @@ EditTableListView : 다중 맵핑 수정 초기 데이터 제공
 edit_table_save : 다중 맵핑 수정 결과 저장
 edit_save : 단일 맵핑 수정 결과 저장
 
-자세한 사항은 아래 ppt 참고
+자세한 사항은 ppt 참고
 [smartpv vocab trace webpage.pptx](https://github.com/lakeparkXPA/mapping_trace/files/11019213/smartpv.vocab.trace.webpage.pptx)
