@@ -5,14 +5,17 @@
 front 랑 back 을 django 로 개발 진행<br><br>
 
 ## View
-summary_cnt : 전체, 도메인 별 맵핑된 수 반환
-search_outcome : 검색 결과 반환 함수
-summary : index page 로 이동
-map_by_excel : 업로드한 엑셀로 맵핑 진행
-SearchListView : 검색 결과 반환
-EditTableListView : 다중 맵핑 수정 초기 데이터 제공
-edit_table_save : 다중 맵핑 수정 결과 저장
-edit_save : 단일 맵핑 수정 결과 저장
+* summary_cnt : 전체, 도메인 별 맵핑된 수 반환
+* search_outcome : 검색 결과 반환 함수
+* summary : index page 로 이동
+* map_by_excel : 업로드한 엑셀로 맵핑 진행
+* SearchListView : 검색 결과 반환
+* EditTableListView : 다중 맵핑 수정 초기 데이터 제공
+* edit_table_save : 다중 맵핑 수정 결과 저장
+* edit_save : 단일 맵핑 수정 결과 저장
 
-자세한 사항은 ppt 참고
+## File Settings
+![image](https://user-images.githubusercontent.com/47446855/226369588-0430d2f8-46de-4901-bfbf-53461783b8f7.png)
+
+<br>자세한 사항은 ppt 참고
 [smartpv vocab trace webpage.pptx](https://github.com/lakeparkXPA/mapping_trace/files/11019213/smartpv.vocab.trace.webpage.pptx)
